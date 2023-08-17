@@ -9,6 +9,6 @@ router.get('/dogs',pageController.dogs);
 router.get('/cats',pageController.cats);
 router.get('/fitshes',pageController.fitshes);
 
-router.get('/serach',searchController.search);
+router.get('/search',searchController.search);
 
 export default router;
